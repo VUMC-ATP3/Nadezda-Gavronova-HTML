@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadežda Gavronova CV</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div clacc="full">
+        <div class="left"> 
+   <h1>šis ir mans pirmais html dokuments</h1>
+   <h2 class="note">1. rindkopa</h2>
+   <!-- mans komentārs -->
+    <p class="note">
+        <a href="https://github.com/VUMC-ATP3/Nadezda.Gavronova/pull/1/commits" target="_blank"><strong>Šeit</strong> ir info>></a>
+        <h6 class="note">Apakšvirsraksts</h6>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id augue laoreet elit lacinia vestibulum. Nunc ex felis, commodo in dignissim sed, porta vitae diam. Integer pretium felis vel justo porta, ac convallis urna consectetur. Donec hendrerit ultricies magna, quis elementum ligula. In rutrum lectus vitae diam egestas, id pharetra tellus euismod. Etiam at tincidunt nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus gravida libero eros, non aliquam ligula ornare id. Donec ut ultrices felis. Donec sit amet sem in ligula rutrum fringilla. Vestibulum cursus in massa viverra posuere. Sed eu justo et lectus lacinia feugiat. Morbi pulvinar dui non ultricies consectetur. Maecenas porta auctor tortor ut tincidunt.
+    </p>
+    <br>
+    <h2>2. rindkopa</h2>
+    <p>
+        Curabitur consectetur eros ut iaculis viverra. Donec cursus augue eget ultricies tincidunt. Nunc dolor nulla, viverra sed elit ac, suscipit posuere sapien. Integer ultricies sapien eu neque imperdiet, ut hendrerit magna aliquet. Nam laoreet bibendum aliquam. Nullam eros metus, accumsan quis aliquet eu, auctor in urna. Maecenas a porttitor libero, ut sodales est.
+    </p>
+    <h2>Pavasara bilde</h2>
+        <img src="img/spring.jpg" width="20%" alt="Pavasaris"> <br> 
+    
+    </div>
+    <div class="right"> 
+        <img src="https://www.lu.lv/templates/LU.LV/Public/Images/logo_100_blue.svg" width="20%" alt="Pavasaris">
+        <input id="vecums" maxlength="10">
+        <button id="poga">Click me</button>
+        <p>Lietotāja vecums ir: <strong id="lietotajavecums"></strong>> </p>
+
+    <h3>Iepirkumu saraksts</h3>
+    <ul>
+        <li>Piens</li>
+        <li>Maize</li>
+        <li>Cukurs</li>
+    </ul>
+
+    <h3>Recepte</h3>
+    <ol>
+        <li>Jāuzvārra ūdens</li>
+        <li>Jāieber tēja krūzē</li>
+        <li>Jāielej ūdens krūzē</li>
+        <li>Jāuzgaida 5 min.</li>
+    </ol>
+</div>
+</div>
+</body>
+
+<script>
+    document.getElementById("poga").onclick = function() {
+        var vecums = document.getElementById("vecums").value;
+        alert("Hello! Tavs vecums ir " +  vecums);
+        document.getElementById("lietotajavecums").innerText = vecums;
+    }
+    
+    </script>
+    
+
+</html>
