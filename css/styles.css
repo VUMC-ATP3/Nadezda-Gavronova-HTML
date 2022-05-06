@@ -1,0 +1,145 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f5f7fa;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background: #fff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content section */
+.main-content-section {
+  padding: 100px 90px;
+}
+.main-content-title {
+  font-weight: bold;
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* About me section + My hobby and interests section*/
+.about-me-section {
+  margin: 0 0 40px 0;
+}
+
+.about-me-name {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  margin: 0 0 25px 0;
+  color: #000000;
+}
+.about-me-description {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 600px;
+}
+
+
+/* My work experience */
+.my-work-experience-company {
+  color: #fb6d3a;
+}
+
+.my-work-experience-position {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-period, 
+.my-education-period {
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-duties {
+  padding-left: 18px;
+}
+.my-work-experience-duty {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.my-work-experience-company-block {
+  margin: o 15px o o;
+}
+
+
+/* My education section */
+.my-education-place {
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin: 0 0 10px 0;
+}
+
+.my-education-programme {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+
+/* Left sidebar-section */
+.sidebar-section {
+  background: #1e2939;
+  width: 350px;
+  padding: 40px 0;
+}
+
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section {
+  margin: 50px 0 0 40px;
+}
+
+.sidebar-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+
+.contacts-section-link {
+  color: #8d9aaf;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Tech and soft skills*/
+.tech-skills-list,
+.soft-skills-list {
+  padding: 0 0 0 15px;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+  color: #fb6d3a;
+}
+.tech-skills-item-text,
+.soft-skills-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}

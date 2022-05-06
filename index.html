@@ -1,64 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nadežda Gavronova CV</title>
-    <link href="style.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nadežda Gavronova CV</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
 <body>
-    <div clacc="full">
-        <div class="left"> 
-   <h1>šis ir mans pirmais html dokuments</h1>
-   <h2 class="note">1. rindkopa</h2>
-   <!-- mans komentārs -->
-    <p class="note">
-        <a href="https://github.com/VUMC-ATP3/Nadezda.Gavronova/pull/1/commits" target="_blank"><strong>Šeit</strong> ir info>></a>
-        <h6 class="note">Apakšvirsraksts</h6>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id augue laoreet elit lacinia vestibulum. Nunc ex felis, commodo in dignissim sed, porta vitae diam. Integer pretium felis vel justo porta, ac convallis urna consectetur. Donec hendrerit ultricies magna, quis elementum ligula. In rutrum lectus vitae diam egestas, id pharetra tellus euismod. Etiam at tincidunt nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus gravida libero eros, non aliquam ligula ornare id. Donec ut ultrices felis. Donec sit amet sem in ligula rutrum fringilla. Vestibulum cursus in massa viverra posuere. Sed eu justo et lectus lacinia feugiat. Morbi pulvinar dui non ultricies consectetur. Maecenas porta auctor tortor ut tincidunt.
-    </p>
-    <br>
-    <h2>2. rindkopa</h2>
-    <p>
-        Curabitur consectetur eros ut iaculis viverra. Donec cursus augue eget ultricies tincidunt. Nunc dolor nulla, viverra sed elit ac, suscipit posuere sapien. Integer ultricies sapien eu neque imperdiet, ut hendrerit magna aliquet. Nam laoreet bibendum aliquam. Nullam eros metus, accumsan quis aliquet eu, auctor in urna. Maecenas a porttitor libero, ut sodales est.
-    </p>
-    <h2>Pavasara bilde</h2>
-        <img src="img/spring.jpg" width="20%" alt="Pavasaris"> <br> 
-    
+    <!-- Main container -->
+    <div class="main-container">
+     <!-- Main content section -->
+        <div class="main-content-section">
+            <!-- About me section -->
+            <div class="about-me-section">        
+                <h1 class="about-me-name">Nadežda Gavronova</h1>
+                <p class="about-me-description"> Par mani: dzīvespriecīga, enerģiska, ar augstu atbildības sajūtu, gatava apgūt jaunas
+                    zināšanas un iemaņas, spējīga efektīvi darboties gan patstāvīgi, gan komandā.</p>
+            </div>
+            
+            <!-- My work experience section -->
+            <div class="my-work-experience-section">
+                <h3 class="main-content-title"> Darba pieredze </h3>
+                
+                <!-- Company 4 -->
+                <div class="my-work-experience-company-block">
+                    <h4 class="my-work-experience-position"> Programmatūras testētāja <span class="my-work-experience-company">ELKO GROUP </span></h4>
+                    <p class="my-work-experience-period">06/2021 - pašlaik | Rīga, Latvija</p>
+                    <ul class="my-work-experience-duties">
+                        <li class="my-work-experience-duty">Prasību analīze </li>
+                        <li class="my-work-experience-duty">Testa scenāriju izveidošana </li>
+                        <li class="my-work-experience-duty">Programmatūras manuālā testēšana</li>
+                        <li class="my-work-experience-duty">API testēšana</li>
+                        <li class="my-work-experience-duty">Izmaiņu publicēšana uz testa vidi, nodošana biznesa testēšanai</li>
+                        <li class="my-work-experience-duty">Defektu analīze, novērtēšana, iesniegšana un atkārtota testēšana</li>
+                    </ul>
+                </div>
+                
+                <!-- Company 3 -->
+                <div class="my-work-experience-company-block">
+                    <h4 class="my-work-experience-position"> Biznesa analītiķe <span class="my-work-experience-company">CORPORATE SOLUTIONS</span></h4>
+                    <p class="my-work-experience-period">09/2019 - 11/2020 | Rīga, Latvija</p>
+
+                    <ul class="my-work-experience-duties">
+                        <li class="my-work-experience-duty">Dalība projektā “Tiesu informatīvās sistēmas attīstība un E-lietas platformas risinājuma izstrāde” </li>
+                        <li class="my-work-experience-duty">Klienta prasību analīze un precizēšana </li>
+                        <li class="my-work-experience-duty">Prasību apraksta sagatavošana izstrādātājiem, sistēmas dokumentācijas/instrukciju izstrāde </li>
+                        <li class="my-work-experience-duty">Risinājuma manuālā testēšana, kļūdu izpēte, sadarbošanās ar izstrādātājiem</li>
+                        <li class="my-work-experience-duty">API testēšana</li>
+                    </ul>
+                </div>
+            
+                <!-- Company 2 -->
+                <div class="my-work-experience-company-block">
+                    <h4 class="my-work-experience-position"> IS analītiķe <span class="my-work-experience-company">VAS “LDZ” INFORMĀCIJAS TEHNOLOĢIJU CENTRS</span></h4>
+                    <p class="my-work-experience-period">10/2017 - 08/2019 | Rīga, Latvija</p>
+                     <ul class="my-work-experience-duties">
+                        <li class="my-work-experience-duty">Dalība projektos “Ldz klasifikatoru datu bāzes un portāla izstrāde”, “SAVS IS modernizācija”, "SAVS integrācija ar KPS" </li>
+                        <li class="my-work-experience-duty">IS funkcionalitātes un klientu biznesa procesu analīze </li>
+                        <li class="my-work-experience-duty">IS incidentu un problēmu pieteikumu analīze, IS funkcionālitātes uzlabošanas veicināšana </li>
+                        <li class="my-work-experience-duty">klientu prasību izpēte, apraksts, sistēmas dokumentācijas izstrāde, sadabošanās ar izstrādātāju;</li>    
+                    </ul>
+                </div>
+                <!-- Company 1 -->
+                <div class="my-work-experience-company-block">
+                    <h4 class="my-work-experience-position"> IS eksperte <span class="my-work-experience-company">VAS “LDZ” INFORMĀCIJAS TEHNOLOĢIJU CENTRS</span></h4>
+                    <p class="my-work-experience-period">08/2012 - 09/2017 | Rīga, Latvija</p>
+                     <ul class="my-work-experience-duties">
+                        <li class="my-work-experience-duty">LDz IS uzturēšana, IS lietotāju atbalsts (incidentu, servisa pierasījumu risināšana un konsultāciju veikšana) </li>
+                        <li class="my-work-experience-duty">IS uzlabošanas veicināšana </li>
+                        <li class="my-work-experience-duty">IS manuāla testēšana, sistēmu jaunu versiju ieviešanas plānošana/ organizēšana </li>   
+                    </ul>
+                </div>            
+            </div>   
+            <hr>
+
+            <!-- My education section -->
+            <div  class="my-education-section">
+                <h3 class="main-content-title">Izglītība</h3>
+
+                <h4 class="my-education-place">Biznesa, mākslas un tehnoloģiju augstskola "RISEBA"</h4>            
+                <h5 class="my-education-programme">Bakalaura grāds Elektroniskās komercijas speciālista kvalivikācijā</h5>
+                <p class="my-education-period">09/2007 - 06/2015 | Rīga, Latvija</p>  
+                <br>
+                <h4 class="my-education-place">Latgales transporta koledža</h4>
+                <h5 class="my-education-programme">Profesionālās vidējās izglītības programmas "Informācijas tehnoloģijas" kvalifikācija "Programmēšanas tehniķis"</h5>
+                <p class="my-education-period">09/1998 - 06/2002 | Daugavpils, Latvija</p>                
+            </div>
+            <hr>
+
+            <!-- My additional education section -->
+            <div  class="my-education-section">
+                <h3 class="main-content-title">Apmācība, kursi</h3>
+
+                <h4 class="my-education-place">Latvijas Universitāte</h4>            
+                <h5 class="my-education-programme">AUTOMATIZĒTA PROGRAMMATŪRAS TESTĒŠANA</h5>
+                <p class="my-education-period">05/2022 - pašlaik | online</p>  
+                <br>                
+
+                <h4 class="my-education-place">QA Academy</h4>            
+                <h5 class="my-education-programme">PROGRAMMATŪRAS TESTĒŠANAS PAMATI</h5>
+                <p class="my-education-period">04/2021 - 06/2021 | online</p>  
+                <br>
+                <h4 class="my-education-place">“#VA” (Maskava)</h4>
+                <h5 class="my-education-programme">WEB DIZAINERIS (UX/UI)</h5>
+                <p class="my-education-period">09/2020 - 10/2020 | online</p>
+                <br>
+                <h4 class="my-education-place"> Rīgas Tehniskā Universitāte </h4>
+                <h5 class="my-education-programme">BIZNESA PROCESU VADĪBA UN INŽENIERIJA</h5>
+                <p class="my-education-period">01/2019 - 06/2019 | Rīga, Latvija</p>
+                <br>
+                <h4 class="my-education-place"> Baltijas datoru akadēmija</h4>
+                <h5 class="my-education-programme">ITIL PAMATKURSS</h5>
+                <p class="my-education-period">07/2018 | Rīga, Latvija</p>   
+                <br>
+                <h4 class="my-education-place"> Baltijas datoru akadēmija</h4>
+                <h5 class="my-education-programme">INFORMĀCIJAS SISTĒMU PRASĪBU INŽENIERIJAS PAMATI</h5>
+                <p class="my-education-period">02/2018 | Rīga, Latvija</p>        
+                <br>
+                <h4 class="my-education-place"> Baltijas datoru akadēmija</h4>
+                <h5 class="my-education-programme">PROGRAMMATŪRAS LIETOJAMĪBA UN LIETOTĀJU PIEREDZE (UX)</h5>
+                <p class="my-education-period">02/2018 | Rīga, Latvija</p>
+                <br>
+                <h4 class="my-education-place"> Baltijas datoru akadēmija</h4>
+                <h5 class="my-education-programme">SCRUM PAMATI KVALITATĪVA PRODUKTA REALIZĀCIJĀ</h5>
+                <p class="my-education-period">05/2016 | Rīga, Latvija</p>
+                <br>
+                <h4 class="my-education-place"> Komercizglītības centrs</h4>
+                <h5 class="my-education-programme">PROJEKTU VADĪŠANA. SAGATAVOŠANA IPMA D UN C LĪMEŅU SERTIFIKĀCIJAI</h5>
+                <p class="my-education-period">08/2013 | Rīga, Latvija</p>                          
+            </div>   
+            <hr>  
+            <!-- My hobby and interests section-->
+            <div class="about-me-section">        
+                <h3 class="main-content-title">Intereses un hobiji</h3>
+                <p class="about-me-description"> Sports, prasmju apgūšana citās jomās (apguvu sertifikātus šūšanā, nail beaty).</p>
+            </div>         
+ 
+        </div>
+        
+        <!-- Left sidebar section -->
+        <aside class="sidebar-section">
+            <img src="img/My_foto.JPG" width="350" alt="my photo" >
+            <!-- Contacts section -->
+            <div class="contacts-section">
+                <h3 class="sidebar-title"> Kontakti </h3>
+                <div>
+                    <img src="img/phone_icon.png" width="20px">
+                    <a class="contacts-section-link" href="tel:+37129532027"> +(371) 29532027</a>
+                </div>
+                <div>
+                    <img src="img/mail_icon.png" width="20px">
+                    <a class="contacts-section-link" href="mailto:nadezhda.gavronova@gmail.com"> nadezhda.gavronova@gmail.com </a>
+                </div>
+                <div>
+                    <img src="img/linkedin_icon.png" width="22px">
+                    <a class="contacts-section-link" href="https://www.linkedin.com/in/gavronova-nade%C5%BEda-20b5b372/">linkedin.com/gavronova-nadežda</a>
+                </div>               
+            </div>
+            <!-- Tech skills section -->
+            <div class="tech-skills-section">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">HTML, CSS, PHP</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">BPM, graphs: Adonis, yEd</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">Design, prototyping: Figma,<br> inVision</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">SQL quering (basic)</span></li>
+                </ul>
+            </div>
+            <!-- Soft skills section -->
+            <div class="soft-skills-section">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="soft-skills-list">
+                    <li class="soft-skills-item"><span class="soft-skills-item-text">Scrum</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-item-text">Agile</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-item-text">JIRA</span></li>
+                </ul>
+            </div>
+
+                
+        </aside>
+
+
     </div>
-    <div class="right"> 
-        <img src="https://www.lu.lv/templates/LU.LV/Public/Images/logo_100_blue.svg" width="20%" alt="Pavasaris">
-        <input id="vecums" maxlength="10">
-        <button id="poga">Click me</button>
-        <p>Lietotāja vecums ir: <strong id="lietotajavecums"></strong>> </p>
 
-    <h3>Iepirkumu saraksts</h3>
-    <ul>
-        <li>Piens</li>
-        <li>Maize</li>
-        <li>Cukurs</li>
-    </ul>
-
-    <h3>Recepte - Kafija/h3>
-    <ol>
-        <li>Jāuzvārra ūdens</li>
-        <li>Jāieber kafija krūzē</li>
-        <li>Jāielej ūdens krūzē</li>
-        <li>Jāuzgaida 5 min.</li>
-    </ol>
-</div>
-</div>
 </body>
-
-<script>
-    document.getElementById("poga").onclick = function() {
-        var vecums = document.getElementById("vecums").value;
-        alert("Hello! Tavs vecums ir " +  vecums);
-        document.getElementById("lietotajavecums").innerText = vecums;
-    }
-    
-    </script>
-    
-
 </html>
